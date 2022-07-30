@@ -7,7 +7,7 @@ export const Container = styled.div`
   display: flex;
 `
 
-export const Loterias = styled.div`
+export const Loterias = styled.div<{ selectValue: string }>`
   background-color: ${colors.megaSena};
   background-size: cover;
   width: 30%;
